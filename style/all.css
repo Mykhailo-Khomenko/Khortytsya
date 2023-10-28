@@ -1,0 +1,411 @@
+body{
+    margin: 0;
+    color: #19191C;
+    font: 300 18px/24px Latoital, sans-serif;
+    background-image: url(../img/Background.png);
+}
+.container{
+    width: 1440px;
+    margin: 0 20px;
+}
+.header{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header_box{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.link{
+    color: #19191C;
+    text-decoration: none;
+}
+.btn-box{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.logo{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+.header_link{
+    color: #19191C;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.header_btn{
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1400px;
+    padding: 0 0 230px;
+    background: url(../img/Ivan_Sirko.png) 100% no-repeat;
+}
+.introduction_holder{
+    width: 800px;
+    background: url(../img/Ellipse_20.png) 100% 100% no-repeat;
+}
+.introduction_title_1{
+    font-size: 38px;
+    line-height: 30px;
+    font-weight: 900;
+    color: orangered;
+    width: 800px;
+    padding: 0 0 0;
+}
+.introduction_title_2{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 900;
+    color: coral;
+    width: 800px;
+}
+.introduction_title_3{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #19191C;
+}
+.introduction_title_4{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 900;
+    color: indigo;
+}
+.introduction_title_5{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 900;
+    color: black;
+}
+.introduction_btn{
+    background: blue;
+    color: #EFEFF2;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.introduction_list{
+    list-style: none;
+    align-self: flex-end;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.introduction_item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.introduction_mezolit{
+    top: -400px;
+    right: -650px;
+}
+.introduction_eneolit{
+    top: -500px;
+    right: -450px;
+}
+.introduction_bronza{
+    top: -400px;
+    right: -250px;
+}
+.introduction_zaliznadoba{
+    top: -250px;
+    right: -200px;
+}
+.introduction_suchasnist{
+    top: -80px;
+    right: -250px;
+}
+.introduction_kozakdoba{
+    top: 10px;
+    right: -450px;
+}
+.introduction_kyiv{
+    top: -70px;
+    right: -670px;
+}
+.introduction_list1{
+    text-decoration: none;
+    color: black;
+}
+.information{
+    background: cornflowerblue;
+    display: flex;
+    padding: 100px 100px 0 100px;
+    gap: 350px;
+    justify-content: flex-start;
+    width: 1440px;
+    height: 260px;
+}
+.information_text{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+}
+.information_text2{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+}
+.information_counters{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    gap: 40px;
+}
+.information_counter-numer{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 10px;
+}
+.information_counter-description{
+    color: white;
+    border-style: none none solid;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+}
+.history_list{
+    list-style: none;
+}
+.history_all{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    width: 1400px;
+}
+.history_list{
+    display: flex;
+    gap: 200px;
+    justify-content: flex-start;
+    padding: 25px;
+}
+.history_button{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    border-width: 0px;
+}
+.history_cards{
+    display: none;
+    gap: 100px;
+    justify-content: flex-start;
+    width: 1440px;
+}
+.history_cards.active{
+    display: flex;
+}
+.find_inf{
+    background: lightyellow;
+    display: flex;
+    padding: 100px 100px 0 100px;
+    gap: 350px;
+    justify-content: flex-start;
+    width: 1440px;
+    height: 260px;
+}
+.find_inf_text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+}
+.find_inf_form{
+    line-height: 55px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-style: none none solid;
+    background: lightyellow;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-style: none none solid;
+    background: lightyellow;
+}
+.find_inf_button{
+    background: #19191C;
+    color: #EFEFF2;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    padding: 12px 20px;
+}
+.container-f{
+    width: 1440px;
+    margin: 0 0;
+    background: burlywood;
+}
+.footer{
+    background: cornflowerblue;
+    display: flex;
+    padding: 0 95px 50px;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 1440px;
+}
+.logo_f{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 22px 0 0;
+}
+.footer_email1{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+}
+.sitemap_title{
+    color: white;
+    padding: 0 40px 0;
+}
+.sitemap_list{
+    list-style: none;
+    width: 120px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sitemap_list1{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    gap: 18px;
+    margin: 100px 0;
+    position: relative;
+    top: 150px;
+    right: 650px;
+}
+.sitemap_list2{
+    color: grey;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+}
+/*@media screen and (min-width: 390px) and (max-width: 1440px){
+    .header_box {
+        display: none;
+    }
+    .introduction_title_3{
+        width: 370px;
+    }
+    .introduction_list{
+        display: none;
+    }
+    .introduction{
+        width: 370px;
+    }
+    .introduction_holder{
+        width: 100px;
+        background: url(../img/Ellipse_20.png) 10% 10% no-repeat;
+    }
+    .Ellipse_22{
+        width: 100px;
+        height: 100px;
+    }
+    .information{
+        width: 370px;
+        padding: 0 0 0 10px;
+        margin: 0;
+        gap: 10px;
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .information_text{
+        width: 390px;
+    }
+    .information_counters{
+        flex: 1 1 100%;
+    }
+    .history{
+        display: none;
+    }
+    .find_inf{
+        display: none;
+    }
+    .container-f{
+        flex-wrap: wrap;
+        width: 370px;
+        padding: 0 0 0 10px;
+    }
+    .container{
+        width: 370px;
+    }
+    .header{
+        width: 350px;
+    }
+    .introduction_title_1{
+        width: 370px;
+    }
+    .introduction_title_2{
+        width: 370px;
+    }
+}*/
+.history_button.active{
+    background: orangered;
+}
+.history_cards.active{
+    display: flex;
+}
+.history_cards{
+    display: none;
+}
